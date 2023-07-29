@@ -15,7 +15,7 @@ function Blogwrapper() {
         </div>
         <div className="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-4 GAP-4 items-center">
           <div className="grid-cols-1 mx-auto my-4">
-            <div class="w-64">
+            <div className="w-64">
               <div className=" bg-white shadow-2xl hover:pb-4 duration-300  rounded-lg ">
               <Image
                 src="/image/blog-1.png"
@@ -24,13 +24,13 @@ function Blogwrapper() {
                 height={500}
                 alt="Picture of the author"
               />
-              <div class="px-5 py-1">
-                <p class="text-gray-900 text-sm"> 13/DEC</p>
+              <div className="px-5 py-1">
+                <p className="text-gray-900 text-sm"> 13/DEC</p>
                 <a href="#">
                   <H4 className="text-lg font-bold" heading="Noteworthy technology acquisitions 2021"/>
                     
                 </a>
-                <p class="mb-3 font-normal">
+                <p className="mb-3 font-normal">
                   Here are the biggest enterprise technology acquisitions of
                   2021 so far, in reverse chronological order.
                 </p>
@@ -44,7 +44,7 @@ function Blogwrapper() {
           </div>
           <div className="grid-cols-1 mx-auto my-4">
             
-          <div class="w-64">
+          <div className="w-64">
           <div className=" bg-white shadow-2xl hover:pb-4 duration-300  rounded-lg ">
               <Image
                 src="/image/blog-2.png"
@@ -53,13 +53,13 @@ function Blogwrapper() {
                 height={500}
                 alt="Picture of the author"
               />
-              <div class="px-5 py-1">
-                <p class="text-gray-300"> 13/DEC</p>
+              <div className="px-5 py-1">
+                <p className="text-gray-300"> 13/DEC</p>
                 <a href="#">
                   <H4 heading="Noteworthy technology acquisitions 2021"/>
                     
                 </a>
-                <p class="mb-3 font-normal">
+                <p className="mb-3 font-normal">
                   Here are the biggest enterprise technology acquisitions of
                   2021 so far, in reverse chronological order.
                 </p>
@@ -73,7 +73,7 @@ function Blogwrapper() {
           </div>
           <div className="grid-cols-1 mx-auto my-4">
             
-          <div class="w-64">
+          <div className="w-64">
           <div className=" bg-white shadow-2xl hover:mb-4 duration-300  rounded-lg ">
 
               <Image
@@ -83,13 +83,13 @@ function Blogwrapper() {
                 height={500}
                 alt="Picture of the author"
               />
-              <div class="px-5 py-1">
-                <p class="text-gray-300"> 13/DEC</p>
+              <div className="px-5 py-1">
+                <p className="text-gray-300"> 13/DEC</p>
                 <a href="#">
                   <H4 heading="Noteworthy technology acquisitions 2021"/>
                     
                 </a>
-                <p class="mb-3 font-normal">
+                <p className="mb-3 font-normal">
                   Here are the biggest enterprise technology acquisitions of
                   2021 so far, in reverse chronological order.
                 </p>
@@ -102,7 +102,7 @@ function Blogwrapper() {
             </div>
             </div>
             <div className="grid-cols-1 mx-auto my-4 ">
-            <div class="w-64">
+            <div className="w-64">
             <div className=" bg-white shadow-2xl hover:pb-4 duration-300  rounded-lg ">
 
               <Image
@@ -112,13 +112,13 @@ function Blogwrapper() {
                 height={500}
                 alt="Picture of the author"
               />
-              <div class="px-5 py-1">
-                <p class="text-gray-300"> 13/DEC</p>
+              <div className="px-5 py-1">
+                <p className="text-gray-300"> 13/DEC</p>
                 <a href="#">
                   <H4 heading="Noteworthy technology acquisitions 2021"/>
                     
                 </a>
-                <p class="mb-3 font-normal">
+                <p className="mb-3 font-normal">
                   Here are the biggest enterprise technology acquisitions of
                   2021 so far, in reverse chronological order.
                 </p>

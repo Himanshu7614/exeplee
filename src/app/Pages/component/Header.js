@@ -1,6 +1,4 @@
 "use client";
-
-import Link from "next/link";
 import Button from "./comman/Button";
 import { H1, H3, H4 } from "./comman/Heading";
 import { BiChevronDown } from "react-icons/bi";
@@ -8,7 +6,6 @@ import { useState } from "react";
 import {HiMenuAlt3} from "react-icons/Hi"
 function Header() {
   const [showMenu, setShowMenu] = useState(false);
-  // console.log(showMenu);
   return (
     <>
       <div className="container-fluid bgblur shadow-md bg-[#eefaffc3] w-full fixed top-0 left-0 py-2 z-50">
@@ -102,7 +99,7 @@ function Header() {
                 Solutions
                 <BiChevronDown className="group-hover/Home:rotate-180 duration-300" />
                 <div className="absolute top-[70%] py-5 left-0 w-screen bg-transperent invisible group-hover/Home:visible duration-300">
-                  <div className="w-full   bg-[#dffbfffe] backdrop-blur bg-blur">
+                  <div className="w-full   bg-[#ffffff] backdrop-blur bg-blur">
                     <div className="container mx-24 py-8">
                       <div className="grid  grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6 justify-center my-5">
                         <div className="grid-cols-2">
@@ -150,7 +147,7 @@ function Header() {
                 Company
                 <BiChevronDown className="group-hover/Home:rotate-180 duration-300" />
                 <div className="absolute top-[70%] py-5 left-0 w-screen bg-transperent invisible group-hover/Home:visible duration-300">
-                  <div className="w-full   bg-[#dffbfffe] backdrop-blur bg-blur">
+                  <div className="w-full   bg-[#ffffff] backdrop-blur bg-blur">
                     <div className="container mx-24 py-8">
                       <div className="grid  grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6 justify-center my-5">
                         <div className="grid-cols-2">
@@ -210,7 +207,7 @@ function Header() {
                 Resouces
                 <BiChevronDown className="group-hover/Home:rotate-180 duration-300" />
                 <div className="absolute top-[70%] py-5 left-0 w-screen bg-transperent invisible group-hover/Home:visible duration-300">
-                  <div className="w-full   bg-[#dffbfffe] backdrop-blur bg-blur">
+                  <div className="w-full   bg-[#ffffff] backdrop-blur bg-blur duration-300">
                     <div className="container mx-24 py-8">
                       <div className="grid  grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6 justify-center my-5">
                         <div className="grid-cols-2">
@@ -290,10 +287,15 @@ function Header() {
         >
           <div className="my-5 mx-5">
             <div className="flex flex-col gap-4 ">
-              <div className="flex gap-4 items-center">
-                <p className="text-normal">Home</p>
-
-                <BiChevronDown className="group-hover/Home:rotate-180 duration-300" />
+              <div className="flex flex-col gap-2 relative">
+                <div className="flex gap-2 items-center group/Drops">
+                  <p className="text-normal">Home</p>
+                </div>
+                <div className="hidden flex-col gap-1 bg-transperent  group-hover/Drops:flex ">
+                  <p className="text-normal">Services</p>
+                  <p className="text-normal">Services</p>
+                  <p className="text-normal">Services</p>
+                </div>
               </div>
 
             <div className="flex gap-4 items-center">
@@ -318,8 +320,6 @@ function Header() {
             </div>
             <div className="flex gap-4 items-center">
               <p className="text-normal">Contract</p>
-
-              <BiChevronDown className="group-hover/Home:rotate-180 duration-300" />
             </div>
           </div>
           </div>

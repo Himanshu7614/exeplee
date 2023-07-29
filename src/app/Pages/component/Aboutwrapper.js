@@ -35,7 +35,7 @@ function Aboutwrapper() {
                   drive growth.
                 </p>
                 <div className="flex gap-3 items-center">
-            <p className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-blue-300 hover:pr-3 duration-300 ">Lets Start  </p>
+            <p className="font-semibold bg-gradient-to-r from-blue-900 to-cyan-300 bg-clip-text text-transparent hover:pr-3 duration-300 ">Lets Start  </p>
             <BsArrowRight />
             </div>
 
@@ -56,7 +56,7 @@ function Aboutwrapper() {
                   drive growth.
                 </p>
                 <div className="flex gap-3 items-center">
-            <p className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-blue-300 hover:pr-3 duration-300 ">Lets Start  </p>
+            <p className="font-semibold bg-gradient-to-r from-blue-900 to-cyan-300 bg-clip-text text-transparent hover:pr-3 duration-300 ">Lets Start  </p>
             <BsArrowRight />
             </div>
                 

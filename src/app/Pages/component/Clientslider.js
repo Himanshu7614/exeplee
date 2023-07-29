@@ -27,25 +27,29 @@ function Clientslider() {
             640: { slidesPerView: 2},
             420:    { slidesPerView: 1}
           }}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
           spaceBetween={30}
           freeMode={true}
           pagination={{
             clickable: true,
           }}
-          modules={[FreeMode, Pagination]}
+          modules={[ Autoplay,FreeMode, Pagination]}
           className="mySwiper"
         >
           <SwiperSlide>
             {" "}
-            <div class="my-16">
+            <div className="my-16">
               <div className=" bg-transperant p-8 ">
-                <div class=" flex items-start gap-3">
+                <div className=" flex items-start gap-3">
                     <div className="my-1">
                         <Image className="shadow-lg"  src="/image/John.jpg" width={250}  height={350}  alt="Picture of the author"/>
                     </div>
                     <div className="flex flex-col w-80 gap-3">
                         <Image src="/image/icon-testimonials.svg" width={32}  height={32}  alt="Picture of the author"/>
-                        <p class="text-sm">
+                        <p className="text-sm">
                         "Expelee's DApp creation service brought our gaming concept to life. Their transparent communication, affordable pricing, and proactive problem-solving made them the ideal partner for our blockchain-based game development."
                         </p>
                         <H4 heading="— Emily Thompson, Marketing Manager at ArtCollect"/>
@@ -56,15 +60,15 @@ function Clientslider() {
           </SwiperSlide>
           <SwiperSlide>
             {" "}
-            <div class="my-16">
+            <div className="my-16">
               <div className=" bg-transperant p-8  ">
-                <div class=" flex items-start gap-3">
+                <div className=" flex items-start gap-3">
                     <div className="my-1">
-                        <Image className="shadow-lg"  src="/image/John.jpg" width={250}  height={350}  alt="Picture of the author"/>
+                        <Image className="shadow-lg"  src="/image/David.jpg" width={250}  height={350}  alt="Picture of the author"/>
                     </div>
                     <div className="flex flex-col w-80 gap-3">
                         <Image src="/image/icon-testimonials.svg" width={32}  height={32}  alt="Picture of the author"/>
-                        <p class="text-sm">
+                        <p className="text-sm">
                         "Expelee's DApp creation service brought our gaming concept to life. Their transparent communication, affordable pricing, and proactive problem-solving made them the ideal partner for our blockchain-based game development."
                         </p>
                         <H4 heading="— Emily Thompson, Marketing Manager at ArtCollect"/>
@@ -75,15 +79,15 @@ function Clientslider() {
           </SwiperSlide>
           <SwiperSlide>
             {" "}
-           <div class="my-16">
+           <div className="my-16">
               <div className=" bg-transperant p-8  ">
-                <div class=" flex items-start gap-3">
+                <div className=" flex items-start gap-3">
                     <div className="my-1">
-                        <Image className="shadow-lg"  src="/image/John.jpg" width={250}  height={350}  alt="Picture of the author"/>
+                        <Image className="shadow-lg"  src="/image/Emily.jpg" width={250}  height={350}  alt="Picture of the author"/>
                     </div>
                     <div className="flex flex-col w-80 gap-3">
                         <Image src="/image/icon-testimonials.svg" width={32}  height={32}  alt="Picture of the author"/>
-                        <p class="text-sm">
+                        <p className="text-sm">
                         "Expelee's DApp creation service brought our gaming concept to life. Their transparent communication, affordable pricing, and proactive problem-solving made them the ideal partner for our blockchain-based game development."
                         </p>
                         <H4 heading="— Emily Thompson, Marketing Manager at ArtCollect"/>
@@ -94,15 +98,15 @@ function Clientslider() {
           </SwiperSlide>
           <SwiperSlide>
             {" "}
-           <div class="my-16">
+           <div className="my-16">
               <div className=" bg-transperant p-8  ">
-                <div class=" flex items-start gap-3">
+                <div className=" flex items-start gap-3">
                     <div className="my-1">
                         <Image className="shadow-lg"  src="/image/John.jpg" width={250}  height={350}  alt="Picture of the author"/>
                     </div>
                     <div className="flex flex-col w-80 gap-3">
                         <Image src="/image/icon-testimonials.svg" width={32}  height={32}  alt="Picture of the author"/>
-                        <p class="text-sm">
+                        <p className="text-sm">
                         "Expelee's DApp creation service brought our gaming concept to life. Their transparent communication, affordable pricing, and proactive problem-solving made them the ideal partner for our blockchain-based game development."
                         </p>
                         <H4 heading="— Emily Thompson, Marketing Manager at ArtCollect"/>
@@ -113,15 +117,15 @@ function Clientslider() {
           </SwiperSlide>
           <SwiperSlide>
             {" "}
-           <div class="my-16">
+           <div className="my-16">
               <div className=" bg-transperant p-8  ">
-                <div class=" flex items-start gap-3">
+                <div className=" flex items-start gap-3">
                     <div className="my-1">
-                        <Image className="shadow-lg"  src="/image/John.jpg" width={250}  height={350}  alt="Picture of the author"/>
+                        <Image className="shadow-lg"  src="/image/jeneffer.jpg" width={250}  height={350}  alt="Picture of the author"/>
                     </div>
                     <div className="flex flex-col w-80 gap-3">
                         <Image src="/image/icon-testimonials.svg" width={32}  height={32}  alt="Picture of the author"/>
-                        <p class="text-sm">
+                        <p className="text-sm">
                         "Expelee's DApp creation service brought our gaming concept to life. Their transparent communication, affordable pricing, and proactive problem-solving made them the ideal partner for our blockchain-based game development."
                         </p>
                         <H4 heading="— Emily Thompson, Marketing Manager at ArtCollect"/>
@@ -132,15 +136,15 @@ function Clientslider() {
           </SwiperSlide>
           <SwiperSlide>
             {" "}
-           <div class="my-16">
+           <div className="my-16">
               <div className=" bg-transperant p-8  ">
-                <div class=" flex items-start gap-3">
+                <div className=" flex items-start gap-3">
                     <div className="my-1">
                         <Image className="shadow-lg"  src="/image/John.jpg" width={250}  height={350}  alt="Picture of the author"/>
                     </div>
                     <div className="flex flex-col w-80 gap-3">
                         <Image src="/image/icon-testimonials.svg" width={32}  height={32}  alt="Picture of the author"/>
-                        <p class="text-sm">
+                        <p className="text-sm">
                         "Expelee's DApp creation service brought our gaming concept to life. Their transparent communication, affordable pricing, and proactive problem-solving made them the ideal partner for our blockchain-based game development."
                         </p>
                         <H4 heading="— Emily Thompson, Marketing Manager at ArtCollect"/>
@@ -151,15 +155,15 @@ function Clientslider() {
           </SwiperSlide>
           <SwiperSlide>
             {" "}
-           <div class="my-16">
+           <div className="my-16">
               <div className=" bg-transperant p-8  ">
-                <div class=" flex items-start gap-3">
+                <div className=" flex items-start gap-3">
                     <div className="my-1">
                         <Image className="shadow-lg"  src="/image/John.jpg" width={250}  height={350}  alt="Picture of the author"/>
                     </div>
                     <div className="flex flex-col w-80 gap-3">
                         <Image src="/image/icon-testimonials.svg" width={32}  height={32}  alt="Picture of the author"/>
-                        <p class="text-sm">
+                        <p className="text-sm">
                         "Expelee's DApp creation service brought our gaming concept to life. Their transparent communication, affordable pricing, and proactive problem-solving made them the ideal partner for our blockchain-based game development."
                         </p>
                         <H4 heading="— Emily Thompson, Marketing Manager at ArtCollect"/>
@@ -170,15 +174,15 @@ function Clientslider() {
           </SwiperSlide>
           <SwiperSlide>
             {" "}
-           <div class="my-16">
+           <div className="my-16">
               <div className=" bg-transperant p-8  ">
-                <div class=" flex items-start gap-3">
+                <div className=" flex items-start gap-3">
                     <div className="my-1">
                         <Image className="shadow-lg"  src="/image/John.jpg" width={250}  height={350}  alt="Picture of the author"/>
                     </div>
                     <div className="flex flex-col w-80 gap-3">
                         <Image src="/image/icon-testimonials.svg" width={32}  height={32}  alt="Picture of the author"/>
-                        <p class="text-sm">
+                        <p className="text-sm">
                         "Expelee's DApp creation service brought our gaming concept to life. Their transparent communication, affordable pricing, and proactive problem-solving made them the ideal partner for our blockchain-based game development."
                         </p>
                         <H4 heading="— Emily Thompson, Marketing Manager at ArtCollect"/>
@@ -189,15 +193,15 @@ function Clientslider() {
           </SwiperSlide>
           <SwiperSlide>
             {" "}
-           <div class="my-16">
+           <div className="my-16">
               <div className=" bg-transperant p-8  ">
-                <div class=" flex items-start gap-3">
+                <div className=" flex items-start gap-3">
                     <div className="my-1">
                         <Image className="shadow-lg"  src="/image/John.jpg" width={250}  height={350}  alt="Picture of the author"/>
                     </div>
                     <div className="flex flex-col w-80 gap-3">
                         <Image src="/image/icon-testimonials.svg" width={32}  height={32}  alt="Picture of the author"/>
-                        <p class="text-sm">
+                        <p className="text-sm">
                         "Expelee's DApp creation service brought our gaming concept to life. Their transparent communication, affordable pricing, and proactive problem-solving made them the ideal partner for our blockchain-based game development."
                         </p>
                         <H4 heading="— Emily Thompson, Marketing Manager at ArtCollect"/>

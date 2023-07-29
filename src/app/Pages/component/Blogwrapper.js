@@ -25,7 +25,7 @@ function Blogwrapper() {
                 alt="Picture of the author"
               />
               <div className="px-5 py-1">
-                <p className="text-gray-900 text-sm"> 13/DEC</p>
+                <p className="text-gray-600 text-xs"> 13/DEC</p>
                 <a href="#">
                   <H4 className="text-lg font-bold" heading="Noteworthy technology acquisitions 2021"/>
                     
@@ -54,7 +54,7 @@ function Blogwrapper() {
                 alt="Picture of the author"
               />
               <div className="px-5 py-1">
-                <p className="text-gray-300"> 13/DEC</p>
+               <p className="text-gray-600 text-xs"> 13/DEC</p>
                 <a href="#">
                   <H4 heading="Noteworthy technology acquisitions 2021"/>
                     
@@ -84,7 +84,7 @@ function Blogwrapper() {
                 alt="Picture of the author"
               />
               <div className="px-5 py-1">
-                <p className="text-gray-300"> 13/DEC</p>
+               <p className="text-gray-600 text-xs"> 13/DEC</p>
                 <a href="#">
                   <H4 heading="Noteworthy technology acquisitions 2021"/>
                     
@@ -113,7 +113,7 @@ function Blogwrapper() {
                 alt="Picture of the author"
               />
               <div className="px-5 py-1">
-                <p className="text-gray-300"> 13/DEC</p>
+               <p className="text-gray-600 text-xs"> 13/DEC</p>
                 <a href="#">
                   <H4 heading="Noteworthy technology acquisitions 2021"/>
                     

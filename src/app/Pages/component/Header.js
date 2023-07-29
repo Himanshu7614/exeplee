@@ -9,7 +9,7 @@ function Header() {
   return (
     <>
       <div className="container-fluid bgblur shadow-md bg-[#eefaffc3] w-full fixed top-0 left-0 py-2 z-50">
-        <div className="container  mx-auto">
+        <div className="container  mx-auto lg:px-16">
           <div className="flex flex-row mx-auto px-5 justify-between items-center bg-bgGrey relative text-textWhite">
             <div className="font-bold">
               <img src="https://www.expelee.com/static/logo.svg" />
@@ -18,13 +18,13 @@ function Header() {
               <div className="font-semibold flex gap-1 items-center duration-300">
                 Home
               </div>
-              <div className="font-semibold flex gap-1 items-center group/Home">
+              <div className="font-semibold flex gap-1 items-center  group/Home">
                 Services
                 <BiChevronDown className="group-hover/Home:rotate-180 duration-300" />
                 {/* dropdown */}
-                <div className="absolute top-[65%] py-6 left-0 w-screen bg-transperent invisible group-hover/Home:visible duration-300 ">
+                <div className="absolute top-[65%] hh  py-6 left-0 w-screen bg-transperent invisible group-hover/Home:visible duration-300 ">
                   <div className="w-full">
-                    <div className=" bg-[#dffbfffe] blurBg2  px-24 py-8">
+                    <div className=" bg-[#eef9fbfe] blurBg2  px-24 py-8">
                       <div className="grid  grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6 justify-center my-5">
                         <div className="grid-cols-2">
                           <div className="flex items-start gap-5">
@@ -99,7 +99,7 @@ function Header() {
                 Solutions
                 <BiChevronDown className="group-hover/Home:rotate-180 duration-300" />
                 <div className="absolute top-[70%] py-5 left-0 w-screen bg-transperent invisible group-hover/Home:visible duration-300">
-                  <div className="w-full   bg-[#ffffff] backdrop-blur bg-blur">
+                  <div className="w-full   bg-[#eef9fbfe] backdrop-blur bg-blur">
                     <div className="container mx-24 py-8">
                       <div className="grid  grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6 justify-center my-5">
                         <div className="grid-cols-2">
@@ -147,7 +147,7 @@ function Header() {
                 Company
                 <BiChevronDown className="group-hover/Home:rotate-180 duration-300" />
                 <div className="absolute top-[70%] py-5 left-0 w-screen bg-transperent invisible group-hover/Home:visible duration-300">
-                  <div className="w-full   bg-[#ffffff] backdrop-blur bg-blur">
+                  <div className="w-full   bg-[#eef9fbfe] backdrop-blur bg-blur">
                     <div className="container mx-24 py-8">
                       <div className="grid  grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6 justify-center my-5">
                         <div className="grid-cols-2">
@@ -207,7 +207,7 @@ function Header() {
                 Resouces
                 <BiChevronDown className="group-hover/Home:rotate-180 duration-300" />
                 <div className="absolute top-[70%] py-5 left-0 w-screen bg-transperent invisible group-hover/Home:visible duration-300">
-                  <div className="w-full   bg-[#ffffff] backdrop-blur bg-blur duration-300">
+                  <div className="w-full   bg-[#eef9fbfe] backdrop-blur bg-blur duration-300">
                     <div className="container mx-24 py-8">
                       <div className="grid  grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6 justify-center my-5">
                         <div className="grid-cols-2">

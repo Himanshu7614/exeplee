@@ -8,8 +8,8 @@ function Header() {
   const [showMenu, setShowMenu] = useState(false);
   return (
     <>
-      <div className="container-fluid bgblur relative shadow-md bg-[#ffffffc3] w-full fixed top-0 left-0 py-3 z-50">
-        <div className="container  mx-auto ">
+      <div className="container-fluid bgblur  shadow-md bg-[#ffffffc3] w-full fixed top-0 left-0 py-3 z-50">
+        <div className="container relative  mx-auto ">
           <div className="flex flex-row mx-auto px-5 justify-between items-center bg-bgGrey  text-textWhite">
             <div className="font-bold">
               <Image
@@ -102,7 +102,7 @@ function Header() {
                 {/* dropdown */}
               </div>
               <div className="font-semibold flex gap-1 items-center   group/Home">
-              <p className="group-hover/Home:font-bold cursor-pointer duration-300" > Solutions</p>
+              <p className="group-hover/Home:font-bold cursor-pointer duration-300" > Solutions </p>
 
                 <div className="absolute top-[73%] py-4 left-0 w-screen bg-transperent invisible group-hover/Home:visible duration-300">
                   <div className="w-full   bg-[#eef9fbfe] backdrop-blur bg-blur">
@@ -169,7 +169,7 @@ function Header() {
                               <H3 heading="About company" />
                               <p className="text-sm">
                                 Gain deeper insights about the exceptional team
-                                and individuals driving Expelee's success and
+                                and individuals driving Expelees success and
                                 revolutionizing the blockchain industry
                               </p>
                             </div>

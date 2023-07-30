@@ -63,7 +63,7 @@ function Products() {
                   transforming the DeFi landscape with enhanced utilities for a
                   safer and user-friendly experience. Our team seamlessly
                   integrated two innovative DApps with their website, amplifying
-                  their platform's capabilities.
+                  their platforms capabilities.
                 </p>
                 <div className="flex gap-3 items-center">
            < Devlink />

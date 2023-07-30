@@ -1,3 +1,4 @@
+import Image from "next/image";
 function Footer() {
   return (
     <>
@@ -5,7 +6,13 @@ function Footer() {
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div>
             <div className="font-bold">
-              <img src="https://www.expelee.com/static/logo.svg" />
+            <Image
+                  src="https://www.expelee.com/static/logo.svg"
+                  className="lg:ml-16"
+                  width={100}
+                  height={100}
+                  alt="Picture of the author"
+                />
             </div>
             <p className="mt-4 max-w-xs text-gray-500">
               On the way to build numerous products that will empower IT

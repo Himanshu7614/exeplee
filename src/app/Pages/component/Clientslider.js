@@ -49,7 +49,7 @@ function Clientslider() {
                     <div className="flex flex-col w-80 gap-3">
                         <Image src="/image/icon-testimonials.svg" width={32}  height={32}  alt="Picture of the author"/>
                         <p className="text-sm">
-                        "Expelee's DApp creation service brought our gaming concept to life. Their transparent communication, affordable pricing, and proactive problem-solving made them the ideal partner for our blockchain-based game development."
+                        Expelees DApp creation service brought our gaming concept to life. Their transparent communication, affordable pricing, and proactive problem-solving made them the ideal partner for our blockchain-based game development.
                         </p>
                         <H4 heading="— Emily Thompson, Marketing Manager at ArtCollect"/>
                     </div>
@@ -68,7 +68,7 @@ function Clientslider() {
                     <div className="flex flex-col w-80 gap-3">
                         <Image src="/image/icon-testimonials.svg" width={32}  height={32}  alt="Picture of the author"/>
                         <p className="text-sm">
-                        "Expelee's DApp creation service brought our gaming concept to life. Their transparent communication, affordable pricing, and proactive problem-solving made them the ideal partner for our blockchain-based game development."
+                      Expelees DApp creation service brought our gaming concept to life. Their transparent communication, affordable pricing, and proactive problem-solving made them the ideal partner for our blockchain-based game development.
                         </p>
                         <H4 heading="— Emily Thompson, Marketing Manager at ArtCollect"/>
                     </div>
@@ -87,7 +87,7 @@ function Clientslider() {
                     <div className="flex flex-col w-80 gap-3">
                         <Image src="/image/icon-testimonials.svg" width={32}  height={32}  alt="Picture of the author"/>
                         <p className="text-sm">
-                        "Expelee's DApp creation service brought our gaming concept to life. Their transparent communication, affordable pricing, and proactive problem-solving made them the ideal partner for our blockchain-based game development."
+                        Expelees DApp creation service brought our gaming concept to life. Their transparent communication, affordable pricing, and proactive problem-solving made them the ideal partner for our blockchain-based game development.
                         </p>
                         <H4 heading="— Emily Thompson, Marketing Manager at ArtCollect"/>
                     </div>
@@ -106,7 +106,7 @@ function Clientslider() {
                     <div className="flex flex-col w-80 gap-3">
                         <Image src="/image/icon-testimonials.svg" width={32}  height={32}  alt="Picture of the author"/>
                         <p className="text-sm">
-                        "Expelee's DApp creation service brought our gaming concept to life. Their transparent communication, affordable pricing, and proactive problem-solving made them the ideal partner for our blockchain-based game development."
+                        Expelees DApp creation service brought our gaming concept to life. Their transparent communication, affordable pricing, and proactive problem-solving made them the ideal partner for our blockchain-based game development.
                         </p>
                         <H4 heading="— Emily Thompson, Marketing Manager at ArtCollect"/>
                     </div>
@@ -125,7 +125,7 @@ function Clientslider() {
                     <div className="flex flex-col w-80 gap-3">
                         <Image src="/image/icon-testimonials.svg" width={32}  height={32}  alt="Picture of the author"/>
                         <p className="text-sm">
-                        "Expelee's DApp creation service brought our gaming concept to life. Their transparent communication, affordable pricing, and proactive problem-solving made them the ideal partner for our blockchain-based game development."
+                        Expelees DApp creation service brought our gaming concept to life. Their transparent communication, affordable pricing, and proactive problem-solving made them the ideal partner for our blockchain-based game development.
                         </p>
                         <H4 heading="— Emily Thompson, Marketing Manager at ArtCollect"/>
                     </div>
@@ -144,7 +144,7 @@ function Clientslider() {
                     <div className="flex flex-col w-80 gap-3">
                         <Image src="/image/icon-testimonials.svg" width={32}  height={32}  alt="Picture of the author"/>
                         <p className="text-sm">
-                        "Expelee's DApp creation service brought our gaming concept to life. Their transparent communication, affordable pricing, and proactive problem-solving made them the ideal partner for our blockchain-based game development."
+                        Expelees DApp creation service brought our gaming concept to life. Their transparent communication, affordable pricing, and proactive problem-solving made them the ideal partner for our blockchain-based game development.
                         </p>
                         <H4 heading="— Emily Thompson, Marketing Manager at ArtCollect"/>
                     </div>
@@ -163,7 +163,7 @@ function Clientslider() {
                     <div className="flex flex-col w-80 gap-3">
                         <Image src="/image/icon-testimonials.svg" width={32}  height={32}  alt="Picture of the author"/>
                         <p className="text-sm">
-                        "Expelee's DApp creation service brought our gaming concept to life. Their transparent communication, affordable pricing, and proactive problem-solving made them the ideal partner for our blockchain-based game development."
+                        Expelees DApp creation service brought our gaming concept to life. Their transparent communication, affordable pricing, and proactive problem-solving made them the ideal partner for our blockchain-based game development.
                         </p>
                         <H4 heading="— Emily Thompson, Marketing Manager at ArtCollect"/>
                     </div>
@@ -182,7 +182,7 @@ function Clientslider() {
                     <div className="flex flex-col w-80 gap-3">
                         <Image src="/image/icon-testimonials.svg" width={32}  height={32}  alt="Picture of the author"/>
                         <p className="text-sm">
-                        "Expelee's DApp creation service brought our gaming concept to life. Their transparent communication, affordable pricing, and proactive problem-solving made them the ideal partner for our blockchain-based game development."
+                        Expelees DApp creation service brought our gaming concept to life. Their transparent communication, affordable pricing, and proactive problem-solving made them the ideal partner for our blockchain-based game development.
                         </p>
                         <H4 heading="— Emily Thompson, Marketing Manager at ArtCollect"/>
                     </div>
@@ -201,7 +201,7 @@ function Clientslider() {
                     <div className="flex flex-col w-80 gap-3">
                         <Image src="/image/icon-testimonials.svg" width={32}  height={32}  alt="Picture of the author"/>
                         <p className="text-sm">
-                        "Expelee's DApp creation service brought our gaming concept to life. Their transparent communication, affordable pricing, and proactive problem-solving made them the ideal partner for our blockchain-based game development."
+                        Expelees DApp creation service brought our gaming concept to life. Their transparent communication, affordable pricing, and proactive problem-solving made them the ideal partner for our blockchain-based game development.
                         </p>
                         <H4 heading="— Emily Thompson, Marketing Manager at ArtCollect"/>
                     </div>

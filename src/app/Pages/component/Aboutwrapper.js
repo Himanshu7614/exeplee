@@ -1,7 +1,6 @@
 import { H1, H2, H3, H4 } from "./comman/Heading";
 import Image from "next/image";
-import {BsArrowRight} from "react-icons/Bs"
-
+import { Devlink } from "./comman/Button";
 function Aboutwrapper() {
   return (
     <>
@@ -35,8 +34,7 @@ function Aboutwrapper() {
                   drive growth.
                 </p>
                 <div className="flex gap-3 items-center">
-            <p className="font-semibold bg-gradient-to-r from-blue-900 to-cyan-300 bg-clip-text text-transparent hover:pr-3 duration-300 ">Lets Start  </p>
-            <BsArrowRight />
+           <Devlink />
             </div>
 
               </div>
@@ -56,8 +54,7 @@ function Aboutwrapper() {
                   drive growth.
                 </p>
                 <div className="flex gap-3 items-center">
-            <p className="font-semibold bg-gradient-to-r from-blue-900 to-cyan-300 bg-clip-text text-transparent hover:pr-3 duration-300 ">Lets Start  </p>
-            <BsArrowRight />
+           <Devlink />
             </div>
                 
               </div>

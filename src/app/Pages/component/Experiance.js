@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Button from "./comman/Button";
 import { H1, H2, H3 } from "./comman/Heading";
-import {BsArrowRight} from "react-icons/Bs"
 
 function Experiance() {
   return (

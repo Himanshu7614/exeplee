@@ -1,5 +1,6 @@
 import {H1 , H3} from "./comman/Heading"
-import {BsArrowRight} from "react-icons/Bs"
+import {Button, Devlink} from "./comman/Button";
+
 function Headingtextwrapper(){
     return(
         <>
@@ -12,8 +13,7 @@ function Headingtextwrapper(){
             </div>
             <H3 className="lg:w-[650px] mx-auto" heading="On the way to build numerous products that will empower IT Industry in upcoming years"/>
             <div className="flex gap-3 mx-auto items-center">
-            <p className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-blue-300 hover:px-3 duration-300 ">Lets Start  </p>
-            <BsArrowRight />
+            <Devlink />
             </div>
            
             </div>

@@ -10,19 +10,19 @@ import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import Image from "next/image";
 import { H1, H2, H3, H4} from "./comman/Heading";
-import {BsArrowRight} from "react-icons/Bs"
 
 
 // import './styles.css';
 
 // import required modules
 import { Autoplay ,FreeMode, Pagination } from "swiper/modules";
+import { Devlink } from "./comman/Button";
 
 function Sliderwrapper() {
   return (
     <>
       <div className="container  my-4">
-        <Swiper
+        <Swiper 
           breakpoints={{
             740: { slidesPerView: 3},
             420:    { slidesPerView: 1}
@@ -37,7 +37,7 @@ function Sliderwrapper() {
             clickable: true,
           }}
           modules={[ Autoplay,FreeMode, Pagination]}
-          className="mySwiper"
+          className="mySwiper flex justify-center"
         >
           <SwiperSlide>
             {" "}
@@ -57,10 +57,7 @@ function Sliderwrapper() {
                   Leverage our expertise in creating secure DApps on reliable blockchain technology. Whether it`s a decentralized marketplace or a financial product, we can bring your ideas to life. Contact us today to learn more.
                   </p>
                   <div className="flex gap-3 items-center my-3">
-                    <p className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-blue-300 duration-300 ">
-                      Lets Start{" "}
-                    </p>
-                    <BsArrowRight />
+             <Devlink />
                   </div>
                 </div>
               </div>
@@ -84,10 +81,7 @@ function Sliderwrapper() {
                   Leverage our expertise in creating secure DApps on reliable blockchain technology. Whether it`s a decentralized marketplace or a financial product, we can bring your ideas to life. Contact us today to learn more.
                   </p>
                   <div className="flex gap-3 items-center my-3">
-                    <p className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-blue-300 duration-300 ">
-                      Lets Start{" "}
-                    </p>
-                    <BsArrowRight />
+             <Devlink />
                   </div>
                 </div>
               </div>
@@ -111,10 +105,7 @@ function Sliderwrapper() {
                   Leverage our expertise in creating secure DApps on reliable blockchain technology. Whether it`s a decentralized marketplace or a financial product, we can bring your ideas to life. Contact us today to learn more.
                   </p>
                   <div className="flex gap-3 items-center my-3">
-                    <p className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-blue-300 duration-300 ">
-                      Lets Start{" "}
-                    </p>
-                    <BsArrowRight />
+             <Devlink />
                   </div>
                 </div>
               </div>
@@ -138,10 +129,7 @@ function Sliderwrapper() {
                   Leverage our expertise in creating secure DApps on reliable blockchain technology. Whether it`s a decentralized marketplace or a financial product, we can bring your ideas to life. Contact us today to learn more.
                   </p>
                   <div className="flex gap-3 items-center my-3">
-                    <p className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-blue-300 duration-300 ">
-                      Lets Start{" "}
-                    </p>
-                    <BsArrowRight />
+             <Devlink />
                   </div>
                 </div>
               </div>
@@ -165,10 +153,7 @@ function Sliderwrapper() {
                   Leverage our expertise in creating secure DApps on reliable blockchain technology. Whether it`s a decentralized marketplace or a financial product, we can bring your ideas to life. Contact us today to learn more.
                   </p>
                   <div className="flex gap-3 items-center my-3">
-                    <p className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-blue-300 duration-300 ">
-                      Lets Start{" "}
-                    </p>
-                    <BsArrowRight />
+             <Devlink />
                   </div>
                 </div>
               </div>
@@ -192,10 +177,7 @@ function Sliderwrapper() {
                   Leverage our expertise in creating secure DApps on reliable blockchain technology. Whether it`s a decentralized marketplace or a financial product, we can bring your ideas to life. Contact us today to learn more.
                   </p>
                   <div className="flex gap-3 items-center my-3">
-                    <p className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-blue-300 duration-300 ">
-                      Lets Start{" "}
-                    </p>
-                    <BsArrowRight />
+             <Devlink />
                   </div>
                 </div>
               </div>
@@ -219,10 +201,7 @@ function Sliderwrapper() {
                   Leverage our expertise in creating secure DApps on reliable blockchain technology. Whether it`s a decentralized marketplace or a financial product, we can bring your ideas to life. Contact us today to learn more.
                   </p>
                   <div className="flex gap-3 items-center my-3">
-                    <p className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-blue-300 duration-300 ">
-                      Lets Start{" "}
-                    </p>
-                    <BsArrowRight />
+             <Devlink />
                   </div>
                 </div>
               </div>
@@ -246,10 +225,7 @@ function Sliderwrapper() {
                   Leverage our expertise in creating secure DApps on reliable blockchain technology. Whether it`s a decentralized marketplace or a financial product, we can bring your ideas to life. Contact us today to learn more.
                   </p>
                   <div className="flex gap-3 items-center my-3">
-                    <p className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-blue-300 duration-300 ">
-                      Lets Start{" "}
-                    </p>
-                    <BsArrowRight />
+             <Devlink />
                   </div>
                 </div>
               </div>
@@ -273,10 +249,7 @@ function Sliderwrapper() {
                   Leverage our expertise in creating secure DApps on reliable blockchain technology. Whether it`s a decentralized marketplace or a financial product, we can bring your ideas to life. Contact us today to learn more.
                   </p>
                   <div className="flex gap-3 items-center my-3">
-                    <p className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-blue-300 duration-300 ">
-                      Lets Start{" "}
-                    </p>
-                    <BsArrowRight />
+             <Devlink />
                   </div>
                 </div>
               </div>

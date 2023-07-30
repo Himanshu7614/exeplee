@@ -19,7 +19,7 @@
 
 .bgblur
 {
-  backdrop-filter: blur(8px) !important;
+  backdrop-filter: blur(4px) !important;
 }
 .hh .blurBg2
 {
@@ -36,18 +36,18 @@ background: #eefaffc3;
 background: radial-gradient(circle, rgba(238,255,253,1) 14%, rgba(255,255,255,1) 88%, rgba(255,255,255,1) 91%);
 z-index: -999;
 }
+
+
 .back {
-	background: linear-gradient(-45deg, #E1EAF8, #83c3e5cc, hwb(0 100% 0% / 0.411), #7bc0f5c8);
-	background-size: 400% 400%;
-	animation: gradient 5s ease infinite;
+	background: radial-gradient( #1bb6f9aa, #cbcffdc8, #c4ecfec7, #3649f9d7);
+	background-size: 200% 200%;
+	animation: gradient 10s ease infinite;
 	/* height: 100vh; */
 }
 
 .backbutton {
-	background: linear-gradient(-45deg, rgb(190,202,250), rgba(153, 171, 255, 0.779), #c2c2c2cc, #7bc0f5c8);
-	background-size: 400% 400%;
+	background-color: radial-gradient( #1bb6f9, #0010bc, #c4ecfe,#5c54f8);
 	animation: gradient 10s ease infinite;
-	/* height: 100vh; */
 }
 
 @keyframes gradient {

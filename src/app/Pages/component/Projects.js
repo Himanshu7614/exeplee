@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { H1, H2, H3 } from "./comman/Heading";
-import {BsArrowRight} from "react-icons/Bs"
+import { Devlink } from "./comman/Button";
 
 function Products() {
   return (
@@ -41,10 +41,7 @@ function Products() {
                   prioritizing security and user-friendly functionality.
                 </p>
                 <div className="flex gap-3 items-center">
-                  <p className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-blue-300 hover:pr-3 duration-300 ">
-                    Lets Start{" "}
-                  </p>
-                  <BsArrowRight />
+           < Devlink />
                 </div>
               </div>
             </div>
@@ -69,10 +66,7 @@ function Products() {
                   their platform's capabilities.
                 </p>
                 <div className="flex gap-3 items-center">
-                  <p className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-blue-300 hover:pr-3 duration-300 ">
-                    Lets Start{" "}
-                  </p>
-                  <BsArrowRight />
+           < Devlink />
                 </div>
               </div>
             </div>

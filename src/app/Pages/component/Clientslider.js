@@ -10,7 +10,6 @@ import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import Image from "next/image";
 import { H1, H2, H3, H4} from "./comman/Heading";
-import {BsArrowRight} from "react-icons/Bs"
 
 
 // import './styles.css';
@@ -38,14 +37,14 @@ function Clientslider() {
           }}
           modules={[ Autoplay,FreeMode, Pagination]}
           className="mySwiper"
-        >
+        > 
           <SwiperSlide>
             {" "}
             <div className="my-16">
               <div className=" bg-transperant p-8 ">
                 <div className=" flex items-start gap-3">
                     <div className="my-1">
-                        <Image className="shadow-lg"  src="/image/John.jpg" width={250}  height={350}  alt="Picture of the author"/>
+                        <Image className="drop-shadow-lg"  src="/image/John.jpg" width={250}  height={350}  alt="Picture of the author"/>
                     </div>
                     <div className="flex flex-col w-80 gap-3">
                         <Image src="/image/icon-testimonials.svg" width={32}  height={32}  alt="Picture of the author"/>
